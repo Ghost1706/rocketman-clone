@@ -1,17 +1,21 @@
 import React from "react";
 import "./navbar.css";
 import logo from "../../images/logo.png";
+import { Link } from "react-router-dom";
 
 const navbar = () => {
   return (
     <header>
-      <img src={logo} alt="DUMMY-IMG" />
+      <Link to="/">
+        <img src={logo} alt="DUMMY-IMG" />
+      </Link>
+
       <div className="n-links">
         <div className="n-link">
-          <a href="#">SERVICES</a>
+          <Link to="/Services">SERVICES</Link>
         </div>
         <div className="n-link">
-          <a href="#">CONTACT US</a>
+          <Link to="/Contact-Us">CONTACT US</Link>
         </div>
         <div className="n-link">
           <a href="#">WAGTAIL COURSES</a>

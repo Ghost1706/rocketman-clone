@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+.card {
+  max-width: 47.5%;
+  overflow-x: hidden;
+  margin-right: 1rem;
+  margin-left: 0;
+}
+.card img {
+  width: 570px;
+  height: 370px;
+}
+.services {
+  border-top: 1px solid rgba(173, 172, 172, 0.418);
+  padding: 1rem 4rem;
+  padding-left: 5.5rem;
+}
+.s-text-wrapper h1 {
+  color: rgb(61, 61, 61);
+  font-weight: 900;
+  font-size: 4rem;
+  margin: 2rem 0;
+}
+.s-text-wrapper p {
+  font-weight: 300;
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+}
