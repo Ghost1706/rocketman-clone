@@ -17,7 +17,7 @@ const Services = () => {
           <p>Services we can provide for you</p>
         </div>
         <div className="wrapper">
-          <div className="card">
+          <div className="card width">
             <img src={four} alt="img" />
             <div className="card-body">
               <div className="card-title">Cleaning</div>
@@ -28,7 +28,7 @@ const Services = () => {
               <div className="card-link">MORE DETAILS</div>
             </div>
           </div>
-          <div className="card">
+          <div className="card width">
             <img src={six} alt="img" />
             <div className="card-body">
               <div className="card-title">Fuelling</div>
@@ -39,7 +39,7 @@ const Services = () => {
               <div className="card-link">MORE DETAILS</div>
             </div>
           </div>
-          <div className="card">
+          <div className="card width">
             <img src={nine} alt="img" />
             <div className="card-body">
               <div className="card-title">Programming</div>

@@ -1,3 +1,10 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+.width {
+  max-width: 47.5%;
+}
 .contact {
   display: flex;
   flex-direction: row;
