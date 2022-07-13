@@ -1,12 +1,15 @@
 import React from "react";
 import "./quote.css";
+import { Link } from "react-router-dom";
 
 const Quote = () => {
   return (
     <section className="quote">
       <div className="q-top">
         <p>We've also partnered with Skynet to maintain humanoid robotics.</p>
-        <div className="q-btn">CONTACT US</div>
+        <Link to="/Contact-Us" className="q-btn">
+          CONTACT US
+        </Link>
       </div>
       <div className="q-bot">
         <h2>

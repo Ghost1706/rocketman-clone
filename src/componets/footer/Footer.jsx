@@ -15,7 +15,9 @@ const Footer = () => {
               rocket before giving it back 😱
             </div>
           </div>
-          <div className="f-btn">CONTACT US</div>
+          <Link to="/Contact-Us" className="f-btn">
+            CONTACT US
+          </Link>
         </div>
       </div>
       <div className="foot-bot">
@@ -25,7 +27,9 @@ const Footer = () => {
             <Link to="/Services" className="f-link">
               Services
             </Link>
-            <div className="f-link">Contact</div>
+            <Link to="/Contact-Us" className="f-link">
+              Contact
+            </Link>
             <div className="f-link">Wagtail Course</div>
           </div>
         </div>

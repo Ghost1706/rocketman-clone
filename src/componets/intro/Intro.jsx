@@ -1,5 +1,6 @@
 import React from "react";
 import "./intro.css";
+import { Link } from "react-router-dom";
 
 const Intro = () => {
   return (
@@ -10,7 +11,9 @@ const Intro = () => {
         <p className="i-desc">
           Your rocket is your $1,000,000 baby. We get that
         </p>
-        <div className="btn">CONTACT US</div>
+        <Link to="/Contact-Us" className="btn">
+          CONTACT US
+        </Link>
       </div>
     </section>
   );

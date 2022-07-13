@@ -1,0 +1,58 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 4.5rem;
+  border-top: 1px solid rgba(141, 141, 141, 0.452);
+}
+.c-left {
+  flex: 1;
+}
+.c-right {
+  flex: 1;
+  padding-top: 3rem;
+  padding-left: 0.5rem;
+}
+.c-title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: rgb(54, 54, 54);
+  margin: 1rem;
+  margin-left: 0;
+}
+.c-desc {
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  width: 90%;
+}
+.c-desc span {
+  color: rgb(124, 47, 124);
+}
+.c-image {
+  padding: 2.5rem 0;
+  border-top: 1px solid rgba(141, 141, 141, 0.452);
+}
+.c-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  color: rgba(143, 140, 140, 0.74);
+  font-weight: 300;
+}
+.c-form input:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #c4ace1;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(129, 78, 191, 0.25);
+}
+.c-form input {
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  color: rgba(143, 140, 140, 0.74);
+}
+.c-form p {
+  font-size: 0.9rem;
+}
