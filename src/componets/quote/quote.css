@@ -1,0 +1,60 @@
+.quote {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.q-top {
+  display: flex;
+  flex-direction: column;
+}
+.q-top p {
+  line-height: 1.3;
+  font-weight: 300;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+.q-btn {
+  padding: 0.5rem 3rem;
+  align-self: center;
+  font-size: 1.125rem;
+  width: fit-content;
+  line-height: 2;
+  border-radius: 0;
+  cursor: pointer;
+  color: #fff;
+  background-color: #814ebf;
+  border-color: #814ebf;
+  font-weight: 500;
+}
+.q-btn:hover {
+  color: #fff;
+  background-color: #6e3da9;
+  border-color: #683aa0;
+}
+.q-btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(148, 105, 201, 0.5);
+}
+.q-bot {
+  display: flex;
+  flex-direction: column;
+}
+.q-bot h2 {
+  font-weight: 900;
+  font-style: italic;
+  align-self: center;
+  font-size: 2rem;
+  width: 65%;
+  margin-bottom: 1rem;
+  color: rgb(37, 37, 37);
+  line-height: 1.5;
+}
+.q-bot p {
+  font-size: 1.1rem;
+  line-height: 1.3;
+  font-weight: 500;
+}

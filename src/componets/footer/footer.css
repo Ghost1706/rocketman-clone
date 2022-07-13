@@ -1,0 +1,97 @@
+footer {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.foot-top {
+  flex: 1;
+  padding: 3rem 4rem;
+  display: flex;
+  background-color: #8d5fc5;
+  align-items: center;
+  justify-items: center;
+}
+.f-left {
+  display: flex;
+  max-width: 65%;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.f-title {
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+.f-text {
+  font-weight: 300;
+  line-height: 1.3;
+  font-size: 1.5rem;
+}
+.f-btn {
+  padding: 0.5rem 3rem;
+  align-self: center;
+  font-size: 1.125rem;
+  width: fit-content;
+  line-height: 2;
+  border-radius: 0;
+  color: rgb(17, 17, 17);
+  background-color: #fdfdfd;
+  border-color: #f8f7f8;
+  font-weight: 500;
+  cursor: pointer;
+}
+.f-btn:hover {
+  color: rgb(22, 22, 22);
+  background-color: #dededf;
+  border-color: #cfced1;
+}
+.f-btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(167, 167, 167, 0.5);
+}
+.foot-bot {
+  padding: 3rem 4rem;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: black;
+}
+.foot-top-wrapper {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.f-links {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.f-link-title {
+  align-items: baseline;
+  font-size: 0.75rem;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  color: rgb(146, 145, 145);
+}
+.f-link-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1rem;
+  padding-top: 0;
+}
+.f-link-content p {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.f-link {
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.5;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}

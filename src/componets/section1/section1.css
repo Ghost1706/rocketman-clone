@@ -1,0 +1,42 @@
+.s-value {
+  color: black;
+  padding: 5rem;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 2rem;
+}
+.card-wrapper {
+  height: 100vh;
+  padding: 0 2rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+}
+.card {
+  border: 1px solid rgb(192, 190, 190);
+  margin: 1rem;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  height: inherit;
+  padding: 2rem;
+}
+.card-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.card-text {
+  font-weight: 300;
+}
+.card-link {
+  color: rgb(161, 46, 161);
+  cursor: pointer;
+}
