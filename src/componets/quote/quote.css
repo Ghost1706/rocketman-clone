@@ -30,6 +30,7 @@
   background-color: #814ebf;
   border-color: #814ebf;
   font-weight: 500;
+  letter-spacing: 2px;
 }
 .q-btn:hover {
   color: #fff;
@@ -57,4 +58,35 @@
   font-size: 1.1rem;
   line-height: 1.3;
   font-weight: 500;
+}
+
+@media screen and (max-width: 900px) {
+  .q-bot h2 {
+    width: 80%;
+  }
+  .q-bot {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  .q-bot p {
+    letter-spacing: 2px;
+    font-weight: 400;
+  }
+}
+@media screen and (max-width: 480px) {
+  .quote {
+    padding: 1rem;
+    height: auto;
+  }
+  .q-top p {
+    font-size: 1.9rem;
+    letter-spacing: 1px;
+    line-height: 1.4;
+  }
+
+  .q-bot h2 {
+    width: 100%;
+    font-size: 1.6rem;
+    line-height: 1.2;
+  }
 }

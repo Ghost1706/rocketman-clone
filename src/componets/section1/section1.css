@@ -14,6 +14,9 @@
   justify-content: center;
   align-content: center;
 }
+.max-w {
+  max-width: 100% !important;
+}
 .card {
   border: 1px solid rgb(192, 190, 190);
   margin: 1rem;
@@ -39,4 +42,58 @@
 .card-link {
   color: rgb(161, 46, 161);
   cursor: pointer;
+}
+.card-link:hover,
+.card-link:focus {
+  color: rgb(214, 65, 214);
+}
+
+@media screen and (max-width: 900px) {
+  .s-value {
+    font-size: 1.5rem;
+  }
+  .card-wrapper {
+    height: auto;
+    padding: 0 4rem;
+  }
+  .card {
+    height: auto;
+  }
+  .card img {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .card-title,
+  .card-text,
+  .card-link {
+    padding: 1rem 0;
+  }
+  .card-text {
+    font-size: 1.2rem;
+  }
+  .card-link {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .s-value {
+    padding: 3rem 1rem;
+    font-size: 1.7rem;
+  }
+  .card-wrapper {
+    flex-wrap: wrap;
+    padding: 0 1rem !important;
+  }
+  .card {
+    height: auto;
+    margin-right: 0 !important;
+    margin-bottom: 4rem;
+  }
+  .max-w {
+    width: auto;
+  }
+  .card img {
+    width: 100% !important;
+    height: auto !important;
+  }
 }

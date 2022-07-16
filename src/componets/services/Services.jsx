@@ -6,6 +6,7 @@ import Footer from "../footer/Footer";
 import four from "../../images/4.jpg";
 import six from "../../images/6.jpg";
 import nine from "../../images/9.jpg";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -25,7 +26,9 @@ const Services = () => {
                 Rockets leaving and entering the atmosphere get dirty. We'll
                 apply the industries best Windex
               </div>
-              <div className="card-link">MORE DETAILS</div>
+              <Link to="/Cleaning" className="card-link">
+                MORE DETAILS
+              </Link>
             </div>
           </div>
           <div className="card width">
@@ -36,7 +39,9 @@ const Services = () => {
                 it'll cost you most to transport your rocket to us. But if it's
                 here, we'll fuel it for you!
               </div>
-              <div className="card-link">MORE DETAILS</div>
+              <Link to="/Fuelling" className="card-link">
+                MORE DETAILS
+              </Link>
             </div>
           </div>
           <div className="card width">
@@ -47,7 +52,9 @@ const Services = () => {
                 For just $2,000,000,000 we'll add a self-landing chip to your
                 rocket
               </div>
-              <div className="card-link">MORE DETAILS</div>
+              <Link to="/Programming" className="card-link">
+                MORE DETAILS
+              </Link>
             </div>
           </div>
         </div>

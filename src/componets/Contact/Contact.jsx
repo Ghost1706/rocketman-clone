@@ -55,6 +55,9 @@ const Contact = () => {
               placeholder="Your Message"
             ></textarea>
           </div>
+          <button type="submit" className="q-btn">
+            SUBMIT
+          </button>
         </div>
       </section>
       <Footer />

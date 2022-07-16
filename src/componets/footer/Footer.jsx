@@ -30,7 +30,12 @@ const Footer = () => {
             <Link to="/Contact-Us" className="f-link">
               Contact
             </Link>
-            <div className="f-link">Wagtail Course</div>
+            <a
+              href="https://learnwagtail.com/wagtail-for-beginners/"
+              className="f-link"
+            >
+              Wagtail Course
+            </a>
           </div>
         </div>
         <div className="f-links">

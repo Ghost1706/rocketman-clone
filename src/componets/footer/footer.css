@@ -42,6 +42,7 @@ footer {
   border-color: #f8f7f8;
   font-weight: 500;
   cursor: pointer;
+  letter-spacing: 2px;
 }
 .f-btn:hover {
   color: rgb(22, 22, 22);
@@ -96,4 +97,41 @@ footer {
   margin-bottom: 1rem;
   text-decoration: none;
   color: white;
+}
+@media screen and (max-width: 480px) {
+  .footer {
+    height: auto;
+  }
+  .foot-top {
+    padding: 5rem 1rem;
+  }
+  .foot-top-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .f-left {
+    max-width: 100%;
+    text-align: center;
+  }
+  .f-title {
+    font-size: 2.4rem;
+  }
+  .f-btn {
+    align-self: center;
+    margin-top: 2rem;
+  }
+  .foot-bot {
+    flex-direction: column;
+    padding: 4rem 1rem;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+  }
+  .f-links {
+    width: 100%;
+  }
+  .f-link-content p {
+    align-self: center;
+    width: 80%;
+  }
 }

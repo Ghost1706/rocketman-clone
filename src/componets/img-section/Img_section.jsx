@@ -3,6 +3,7 @@ import "./img_section.css";
 import nine from "../../images/9.jpg";
 import six from "../../images/6.jpg";
 import ten from "../../images/10.jpg";
+import { Link } from "react-router-dom";
 const Img_section = () => {
   return (
     <section className="img-section">
@@ -13,7 +14,9 @@ const Img_section = () => {
           <div className="g-text">
             Probably the coolest thing evar!!1 We can program this for you.
           </div>
-          <div className="g-btn">MORE DETAILS</div>
+          <Link to="/Programming" className="g-btn">
+            MORE DETAILS
+          </Link>
         </div>
       </div>
       <div className="img-wrapper">
@@ -24,7 +27,9 @@ const Img_section = () => {
             This image has nothing to do with cleaning. But it's kind of neat
             still.
           </div>
-          <div className="g-btn">MORE DETAILS</div>
+          <Link to="/Cleaning" className="g-btn">
+            MORE DETAILS
+          </Link>
         </div>
       </div>
       <div className="img-wrapper">
@@ -35,7 +40,9 @@ const Img_section = () => {
             If you think gas is expensive now.. think about rocket prices!
             Luckily, we water our gas down to give you more bang for your buck.
           </div>
-          <div className="g-btn">MORE DETAILS</div>
+          <Link to="/Fuelling" className="g-btn">
+            MORE DETAILS
+          </Link>
         </div>
       </div>
     </section>

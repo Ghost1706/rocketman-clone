@@ -63,3 +63,38 @@ a {
 .c-form p {
   font-size: 0.9rem;
 }
+
+@media screen and (max-width: 900px) {
+  .contact {
+    padding: 1rem;
+  }
+  .c-image img {
+    width: 80%;
+  }
+  .c-title {
+    font-size: 2rem;
+  }
+  .c-right {
+    padding-left: 2.5rem;
+  }
+  .c-form {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .c-image {
+    display: none;
+  }
+  .contact {
+    flex-wrap: wrap;
+  }
+  .c-title {
+    font-size: 1.5rem;
+  }
+  .c-desc {
+    font-size: 1.2rem;
+  }
+  label {
+    margin-bottom: 0.5rem;
+  }
+}

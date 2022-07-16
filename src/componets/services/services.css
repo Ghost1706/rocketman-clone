@@ -24,8 +24,60 @@
   font-size: 4rem;
   margin: 2rem 0;
 }
+.extra-images {
+  padding: 1rem 2rem;
+}
+.border-top {
+  margin-top: 2rem;
+  padding: 2rem;
+  border-top: 1px solid rgba(173, 172, 172, 0.418);
+}
 .s-text-wrapper p {
   font-weight: 300;
   margin-bottom: 3rem;
   font-size: 1.5rem;
+}
+.extra-flex {
+  display: flex;
+  flex-direction: row;
+}
+/* .e-f {
+  flex: 1;
+}
+.extra-images {
+  flex: 1;
+} */
+.center {
+  text-align: center;
+  margin: 5rem 0;
+}
+.center-image {
+  padding: 2rem 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .card {
+    height: auto;
+  }
+  .extra-images img {
+    width: 100%;
+  }
+  .extra-flex {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 480px) {
+  .services {
+    padding: 1rem;
+  }
+  .extra-images {
+    padding: 0;
+  }
+  .s-text-wrapper h1 {
+    font-size: 3rem;
+  }
+  .width {
+    max-width: 100% !important;
+  }
 }

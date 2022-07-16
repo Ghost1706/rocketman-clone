@@ -12,7 +12,7 @@ const Section1 = () => {
       </p>
       <div className="card-wrapper">
         <Link to="/Services">
-          <div className="card">
+          <div className="card max-w">
             <img src={two} alt="img" />
             <div className="card-body">
               <div className="card-title">its not a toy</div>
@@ -26,7 +26,7 @@ const Section1 = () => {
           </div>
         </Link>
         <Link to="/Contact-Us">
-          <div className="card">
+          <div className="card max-w">
             <img src={four} alt="img" />
             <div className="card-body">
               <div className="card-title">Rockets are cool!</div>
